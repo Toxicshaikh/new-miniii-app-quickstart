@@ -9,13 +9,13 @@ const ROOT_URL =
  */
 export const minikitConfig = {
   accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
+    header: "eyJmaWQiOjI4OTExNywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc4OGQ5RTk1QmJENEM4MzYyN2VGRDY2YkVDMTZiODZmNTlGREM4Q2YifQ",
+    payload: "eyJkb21haW4iOiJuZXctbWluaWlpLWFwcC1xdWlja3N0YXJ0LnZlcmNlbC5hcHAifQ",
+    signature: "uRCwMcf0MMfNEfC9U9SiWFPwkeBiO9TEg2AC6MBit3N10wYVIdZ+uq4a4riYT0FyoEVpZyl4mdw+yPeN9NrFdhs"
   },
   miniapp: {
     version: "1",
-    name: "Cubey", 
+    name: "new-miniii-app-quickstart", 
     subtitle: "Your AI Ad Companion", 
     description: "Ads",
     screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
